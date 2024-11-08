@@ -1,0 +1,99 @@
+body {
+  padding-top: 64px;
+}
+
+:root {
+ --site-color-1: rgb(102, 167, 183);
+}
+
+#tabs {
+  padding-left: 48px;
+  background-image: url(/static/assets/images/marsjug.png);
+  background-repeat: no-repeat;
+  background-position: 0px 3px
+}
+
+.center {
+  text-align: center;
+}
+
+
+
+#reunion {
+  .btn.btn-inscription {
+    background: white;
+    color: var(--site-color-1);
+    text-shadow: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    box-shadow: none;
+    font-weight: bold;
+  }
+
+
+  .hero-unit {
+    .btn.btn-inscription {
+      background: var(--site-color-1);
+      color: white;
+    }
+    .date {
+      color: #777;
+    }
+
+    h2 {
+      margin-bottom: 30px;
+    }
+    img {
+      height: 120px;
+      margin-bottom: 20px;
+    }
+
+  }
+
+  h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--site-color-1);
+  }
+}
+
+.reunions-subsection-title {
+  margin-top: 20px;
+
+}
+
+.reunions-section-title {
+  margin-top: 30px;
+  border-bottom: 1px solid var(--site-color-1);
+  padding-bottom: 10px;
+}
+
+.reunions > .reunion-card:last-child {
+  border: none;
+}
+
+article.reunion-card {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+
+  .date {
+    color: #777;
+  }
+
+  .date i.fa {
+    margin-right: 10px;
+  }
+
+}
+
+.empty {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  color: var(--site-color-1);
+}
+
+
+footer {
+  margin-top: 40px;
+}
+

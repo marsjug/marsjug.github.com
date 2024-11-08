@@ -1,0 +1,29 @@
+---
+title: Archives
+id: archives
+description: Le Mars JUG réunit régulièrement la communauté Java de Marseille et de sa région autour d'intervenants qui viennent nous parler de la plateforme Java et de son écosystème.
+layout: main
+---
+<div class="row">
+  <div class="span12">
+    <h2 class="reunions-section-title">Archives</h2>
+    {#for saison in cdi:archive-reunions.list}
+    <h4 class="reunions-subsection-title">Saison {saison.year}</h4>
+    <ul>
+      {#for reunion in saison.reunions}
+      <li>
+        <i>
+          {reunion.title}&nbsp;par
+          {#for speaker in reunion.speakers}
+          <strong>{#if speaker.profile}<a href="{speaker.profile}"
+                                          target="_blank">{speaker.name}</a>{#else}{speaker.name}{/if}
+          </strong>{#if !speaker_isLast} et {#else},{/if}
+          {/for}
+          {reunion.localDate.format(FULL_DATE_FORMAT)}
+        </i>
+      </li>
+      {/for}
+    </ul>
+    {/for}
+  </div>
+</div>

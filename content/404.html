@@ -1,0 +1,13 @@
+---
+layout: default
+image: logo.png
+body-class: page-404
+---
+
+<div class="main">
+  <h1>Roq! Where's my page?</h1>
+  {#if page.image}
+  <img class="page-image" src="{page.image}" alt="{page.title}">
+  {/}
+  <p><b>Roq</b>: If you are lost, find yourself <a href="{site.url}">here</a>.</p>
+</div>

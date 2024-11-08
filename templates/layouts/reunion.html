@@ -1,0 +1,39 @@
+---
+layout: main
+id: reunion
+---
+
+
+<div class="hero-unit">
+  <div class="center">
+    <div class="center">
+      <img src="{site.image('logo_smaller.png')}" alt="logo"/>
+    </div>
+    <div class="date"><i class="fa fa-calendar"></i> {page.date.format(global:FULL_DATE_FORMAT)} à {page.date.format(global:TIME_FORMAT)}</div>
+    <h2>{page.title}</h2>
+    <a href="{page.data.inscription}" target="_blank" class="btn btn-inscription"><i class="fa-solid fa-user-secret"></i> S'inscrire</a>
+  </div>
+</div>
+<div class="row">
+  <div class="span12">
+    <h3>Résumé</h3>
+    {#insert /}
+    <h3>Speakers</h3>
+    <div class="speakers">&nbsp;par
+      {#for id in page.data.speakers}
+      {#let speaker = cdi:speakers.get(id)}
+      <strong>{#if speaker.profile}<a href="{speaker.profile}"
+                                      target="_blank">{speaker.name}</a>{#else}{speaker.name}{/if}
+      </strong>{#if !id_isLast} et {/if}
+      {/for}
+    </div>
+    <h3>Déroulement de la soirée</h3>
+    <p>La soirée se déroulera le <span class="label label-info">{page.date.format(FULL_DATE_FORMAT)}</span> à partir de {page.date.format(TIME_FORMAT)}</p>
+    {cdi:locations.get(page.data.location).info.markdownify.raw}
+    <a href="{page.data.inscription}" target="_blank" class="btn btn-inscription"><i class="fa-solid fa-user-secret"></i> S'inscrire</a>
+  </div>
+</div>
+
+
+
+
