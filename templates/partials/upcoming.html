@@ -1,0 +1,12 @@
+{#let future = site.collections.reunions.future}
+<h2 class="reunions-section-title">Soirées à venir</h2>
+
+<div class="reunions">
+  {#if !future.isEmpty}
+  {#for reunion in future}
+    {#reunion-card reunion /}
+  {/for}
+  {#else}
+  {#empty /}
+  {/if}
+</div>

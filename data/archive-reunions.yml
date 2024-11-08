@@ -1,0 +1,411 @@
+- year: 2024
+  reunions:
+    - title: "Développer en Java Cloud Native en 2024, Unpopular Opinion ?"
+      speakers:
+        - name: "Nicolas Muller"
+        - name: "Remi Verchere"
+      date: "2024-10-03"
+    - title: "Booster ses applications avec WASM"
+      speakers:
+        - name: "Philippe Charrière"
+      date: "2024-06-20"
+    - title: "Microcks : simuler et tester vos microservices et APIs sans effort"
+      speakers:
+        - name: "Yacine Kheddache"
+        - name: "Laurent Broudoux"
+      date: "2024-04-09"
+    - title: "Generative AI par la pratique : cas concrets d'utilisation d'un LLM en Java, avec l'API PaLM, Gemini et LangChain4j"
+      speakers:
+        - name: "Guillaume Laforge"
+      date: "2024-03-12"
+    - title: "Dimensionner des applications pour Kubernetes"
+      speakers:
+        - name: "Remi Verchere"
+      date: "2024-01-23"
+
+- year: 2023
+  reunions:
+    - title: "Taming performance issues into the wild: a practical guide to JVM profiling"
+      speakers:
+        - name: "Francesco Nigro"
+      date: "2023-11-29"
+    - title: "Comment créer des applications Web et des composants Full-Stack avec Quarkus Web Bundler"
+      speakers:
+        - name: "Andy Damevin"
+      date: "2023-11-08"
+    - title: "Simplifiez le déploiement de vos applications Java sur Kubernetes avec JKube"
+      speakers:
+        - name: "Sun Tan"
+          profile: "https://twitter.com/__sunix_"
+      date: "2023-09-26"
+    - title: "CI/CD : complexe mais incontournable"
+      speakers:
+        - name: "Thomas Boni"
+          profile: "https://twitter.com/thomas_boni"
+      date: "2023-06-27"
+    - title: "Benchmark HTTP grandeur nature"
+      speakers:
+        - name: "Julien Viet"
+          profile: "https://www.julienviet.com/"
+      date: "2023-03-30"
+    - title: "Design de persuasion : De la séduction à l'engagement"
+      speakers:
+        - name: "Estelle Landry"
+          profile: "https://twitter.com/estelandry"
+      date: "2023-01-24"
+
+- year: 2022
+  reunions:
+    - title: "Tired: Passwords; Wired: Passkeys. Security is a feature"
+      speakers:
+        - name: "Paulo Lopez"
+      date: "2022-12-13"
+    - title: "Best Practices for Building High Performance Real-time Stream Processing Microservices"
+      speakers:
+        - name: "Fawaz Ghali"
+      date: "2022-11-22"
+    - title: "Quarkus World Tour"
+      speakers:
+        - name: "Stephane Epardaud"
+        - name: "Andy Damevin"
+      date: "2022-10-18"
+    - title: "genèse et utilisation du client Java pour Elasticsearch"
+      speakers:
+        - name: "Sylvain Wallez"
+      date: "2022-09-26"
+    - title: "Quoi de neuf Java?"
+      speakers:
+        - name: "Rémi Forax"
+        - name: "José Paumard"
+      date: "2022-05-19"
+    - title: "Accès non bloquant en base, quesaco?"
+      speakers:
+        - name: "Gavin King"
+        - name: "Thomas Segismont"
+      date: "2022-06-23"
+
+- year: 2020
+  reunions:
+    - title: "Kubernetes pour des développeurs Java"
+      speakers:
+        - name: "Horacio Gonzalez"
+      date: "2020-03-12"
+    - title: "Du Microservice au Service Mesh avec Kubernetes, Istio et Kiali"
+      speakers:
+        - name: "Nicolas Muller"
+        - name: "Joel Takvorian"
+      date: "2020-02-04"
+    - title: "Gravitee.io - une plateforme Open Source basée sur Eclipse Vert.x"
+      speakers:
+        - name: "David Brassely"
+      date: "2019-11-26"
+    - title: "Des microservices aux migroservices"
+      speakers:
+        - name: "François Teychene"
+      date: "2019-10-10"
+
+- year: 2019
+  reunions:
+    - title: "Microservices et le ServiceMesh"
+      speakers:
+        - name: "Heiko Rupp"
+      date: "2019-06-19"
+    - title: "Java 11 est sorti, c'est le moment de remplacer son JDK 8"
+      speakers:
+        - name: "Lilian Benoit"
+      date: "2019-03-14"
+    - title: "Let's Encrypt"
+      speakers:
+        - name: "Jérémy Lecour"
+      date: "2019-02-07"
+    - title: "Synchronisation bi-directionnelle d'un legacy et d'une architecture micro-services"
+      speakers:
+        - name: "Brice Leporini"
+      date: "2018-12-11"
+    - title: "Recherche avancée pour votre application 'legacy'"
+      speakers:
+        - name: "David Pilato"
+      date: "2018-11-15"
+
+- year: 2018
+  reunions:
+    - title: "Microservices full-stack avec des composants web et la conception atomique"
+      speakers:
+        - name: "William Bartlett"
+      date: "2018-06-07"
+    - title: "Documentation as Code: (expliqué à mon père)"
+      speakers:
+        - name: "Hubert Sablonnière"
+      date: "2018-03-15"
+    - title: "Java 9 et au dela"
+      speakers:
+        - name: "Rémi Forax"
+      date: "2018-01-23"
+    - title: "Des Benchmarks qui déchirent, avec JMH"
+      speakers:
+        - name: "Léo Gomes"
+      date: "2017-11-21"
+    - title: "Soirée fast cars, big data!"
+      speakers:
+        - name: "Tugdual Grall"
+      date: "2017-10-11"
+
+- year: 2017
+  reunions:
+    - title: "Soirée BBQ de fin d'année"
+      speakers:
+        - name: "Nicolas Muller"
+      date: "2017-06-22"
+    - title: "Soirée PostgreSQL et Akka Stream"
+      speakers:
+        - name: "Quentin Adam"
+      date: "2017-05-18"
+    - title: "Soirée Google Compute Engine"
+      speakers:
+        - name: "Romain Rodier"
+        - name: "François Absil"
+      date: "2017-04-24"
+    - title: "Soirée Neo4j"
+      speakers:
+        - name: "Cédric Fauvet"
+        - name: "Arnaud Castelltort"
+      date: "2017-02-28"
+    - title: "Sécuriser facilement ses applications front et back avec Keycloak"
+      speakers:
+        - name: "Non spécifié"
+      date: "2017-01-11"
+    - title: "Les Furets sont de retour!"
+      speakers:
+        - name: "Gilles Di Guglielmo"
+        - name: "Alexandre DuBreuil"
+      date: "2016-10-13"
+
+- year: 2016
+  reunions:
+    - title: "Gagnez au tirage avec Kanban!"
+      speakers:
+        - name: "Guillaume Lours"
+          profile: "https://twitter.com/glours"
+      date: "2016-06-28"
+    - title: "Le retour du Mega Jenkins 2.0"
+      speakers:
+        - name: "Arnaud Héritier"
+          profile: "https://twitter.com/aheritier"
+      date: "2016-06-02"
+    - title: "Kotlin 1.0 : pragmatic mais fun"
+      speakers:
+        - name: "Gaetan Zoritchak"
+          profile: "https://twitter.com/gz_k"
+      date: "2016-04-07"
+    - title: "RxJava pratique: les recettes de Hawkular Metrics"
+      speakers:
+        - name: "Thomas Segismont"
+          profile: "https://twitter.com/tsegismont"
+      date: "2016-02-25"
+    - title: "Soirée HTTP/2 pour le développeur web"
+      speakers:
+        - name: "Brian Clozel"
+          profile: "https://spring.io/team/bclozel"
+      date: "2016-01-21"
+    - title: "Soirée Gradle"
+      speakers:
+        - name: "Cédric Champeau"
+      date: "2015-12-08"
+    - title: "Soirée Vert.x"
+      speakers:
+        - name: "Julien Viet"
+          profile: "https://www.julienviet.com"
+      date: "2015-11-07"
+    - title: "Soirée autour React.JS"
+      speakers:
+        - name: "Nicolas Cuillery"
+      date: "2015-10-08"
+
+- year: 2015
+  reunions:
+    - title: "Soirée cloture de saison autour de Play Framework"
+      speakers:
+        - name: "Nicolas Leroux"
+          profile: "https://twitter.com/nicolasleroux"
+      date: "2015-06-30"
+    - title: "Soirée mesurez votre prod!"
+      speakers:
+        - name: "Thomas Segismont"
+          profile: "https://twitter.com/tsegismont"
+        - name: "Nicolas Muller"
+          profile: "https://500px.com/zepouet"
+      date: "2015-05-26"
+    - title: "Docker et son écosystème"
+      speakers:
+        - name: "Nicolas Muller"
+          profile: "https://500px.com/zepouet"
+      date: "2015-04-23"
+    - title: "Spring Boot et Spring 4"
+      speakers:
+        - name: "Brian Clozel"
+          profile: "https://twitter.com/brianclozel"
+      date: "2015-03-12"
+    - title: "Présentation de Cassandra, la base NoSQL orientée colonnes derrière les grandes entreprises"
+      speakers:
+        - name: "DuyHai DOAN"
+          profile: "https://twitter.com/doanduyhai"
+      date: "2014-12-10"
+    - title: "Wisdom le framework web modulaire et dynamique"
+      speakers:
+        - name: "Clément Escoffier"
+          profile: "https://twitter.com/clementplop"
+      date: "2014-10-30"
+    - title: "Introduction au NoSQL avec MongoDB"
+      speakers:
+        - name: "Tugdual Graal"
+          profile: "https://twitter.com/@tgraal"
+      date: "2014-10-15"
+
+- year: 2014
+  reunions:
+    - title: "Lambda Tour - Java 8 Streams & Collectors"
+      speakers:
+        - name: "José Paumard"
+          profile: "https://twitter.com/@JosePaumard"
+      date: "2014-06-19"
+    - title: "Tournée NightHacking - Java 8"
+      speakers:
+        - name: "Stephen Chin"
+          profile: "https://twitter.com/steveonjava"
+      date: "2014-04-07"
+    - title: "Trouvez les problématiques de performances avec JProfiler"
+      speakers:
+        - name: "Brice Leporini"
+          profile: "https://twitter.com/@blep"
+      date: "2014-03-21"
+    - title: "Wildly / Testing the Enterprise Layers"
+      speakers:
+        - name: "Arun Gupta"
+          profile: "https://twitter.com/arungupta"
+        - name: "Andrew Lee Rubinger"
+          profile: "https://twitter.com/ALRubinger"
+      date: "2014-03-20"
+    - title: "Hackergarten #2"
+      speakers:
+        - name: "Non spécifié"
+      date: "2014-01-25"
+    - title: "DSL embarqués / Aerogear"
+      speakers:
+        - name: "Corinne Krych"
+          profile: "https://twitter.com/corinnekrych"
+        - name: "Sébastien Blanc"
+          profile: "https://twitter.com/sebi2706"
+        - name: "Pascal Cohen"
+          profile: "https://twitter.com/pascalcohen"
+        - name: "Fabrice Matrat"
+          profile: "https://twitter.com/fabricematrat"
+      date: "2014-01-22"
+    - title: "Débat serveur Java EE suivi d'une session technique sur les Class loader"
+      speakers:
+        - name: "Simon Maple"
+          profile: "https://devangelist.blogspot.fr"
+      date: "2013-12-13"
+    - title: "Soirée Apache Lucene/Solr et son écosystème"
+      speakers:
+        - name: "Olivier Tavard"
+          profile: "https://www.linkedin.com/in/oliviertavard"
+      date: "2013-11-28"
+    - title: "Golo, le petit langage qui donne des super-pouvoirs"
+      speakers:
+        - name: "Philippe Charrière"
+          profile: "https://twitter.com/k33g_org"
+      date: "2013-10-29"
+    - title: "Après midi Devoxx4Kids"
+      speakers:
+        - name: "Audrey Neveu"
+          profile: "https://twitter.com/Audrey_Neveu"
+      date: "2013-10-05"
+    - title: "Soirée Arquillian/Modularité"
+      speakers:
+        - name: "Alexis Hassler"
+          profile: "https://blog.alexis-hassler.com"
+      date: "2013-09-24"
+
+- year: 2013
+  reunions:
+    - title: "Soirée Elasticsearch"
+      speakers:
+        - name: "David Pilato"
+          profile: "https://david.pilato.fr"
+      date: "2013-07-04"
+    - title: "Soirée Groovy"
+      speakers:
+        - name: "Guillaume Laforge"
+          profile: "https://glaforge.appspot.com"
+      date: "2013-06-18"
+    - title: "Hackergarten"
+      speakers:
+        - name: "Non spécifié"
+      date: "2013-06-05"
+    - title: "Soirée Gatling : Faites tomber la foudre !"
+      speakers:
+        - name: "Stéphane Landelle"
+          profile: "https://twitter.com/slandelle"
+        - name: "Pierre Dal-pra"
+          profile: "https://github.com/pdalpra"
+      date: "2013-05-16"
+    - title: "Soirée Do It Yourself : Arduino et Raspberry PI"
+      speakers:
+        - name: "Non spécifié"
+      date: "2013-03-07"
+    - title: "Soirée JavaFX"
+      speakers:
+        - name: "Thierry Wasylczenko"
+          profile: "https://fr.linkedin.com/in/thierry-wasylczenko"
+      date: "2013-04-09"
+    - title: "Soirée Applis web : AngularJS réinvente le HTML"
+      speakers:
+        - name: "Thierry Chatel"
+          profile: "https://www.linkedin.com/in/tchatel"
+      date: "2013-02-19"
+    - title: "Soirée Traitement des annotations"
+      speakers:
+        - name: "Dimitri Baeli"
+          profile: "https://www.linkedin.com/in/dbaeli"
+        - name: "Gilles Di Guglielmo"
+          profile: "https://github.com/gdigugli"
+      date: "2013-01-10"
+    - title: "Soirée Duchess et Android à la nuit de l'Info"
+      speakers:
+        - name: "Claude Falgière"
+          profile: "https://cfalguiere.wordpress.com"
+      date: "2012-12-06"
+    - title: "Soirée XWiki"
+      speakers:
+        - name: "Vincent Massol"
+          profile: "https://massol.myxwiki.org/xwiki/bin/view/Blog/WebHome"
+      date: "2012-10-11"
+
+- year: 2012
+  reunions:
+    - title: "Soirée Manipulation de bytecode : démocratisons la magie noire !"
+      speakers:
+        - name: "Julien Ponge"
+          profile: "https://julien.ponge.info"
+      date: "2012-06-19"
+    - title: "Soirée Retour de Devoxx avec Ceylon"
+      speakers:
+        - name: "Stéphane Epardaud"
+          profile: "https://stephane.epardaud.fr/"
+      date: "2012-05-24"
+    - title: "Soirée Performance Java"
+      speakers:
+        - name: "Ludovic Poitou"
+          profile: "https://ludopoitou.wordpress.com/"
+      date: "2012-03-22"
+    - title: "Soirée Spring 3.1"
+      speakers:
+        - name: "Gildas Cuisinier"
+          profile: "https://www.hikage.be/"
+      date: "2012-02-23"
+    - title: "Soirée EclipseLink"
+      speakers:
+        - name: "Shaun Smith"
+          profile: "https://onpersistence.blogspot.fr/"
+      date: "2012-01-19"
+      slides: "/static/download/Shaun Smith-The Evolution of Java Persistence.pdf"

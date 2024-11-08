@@ -1,0 +1,12 @@
+<article class="reunion-card">
+  <div class="date"><i class="fa fa-calendar"></i> {reunion.date.format(global:FULL_DATE_FORMAT)} à {reunion.date.format(global:TIME_FORMAT)}</div>
+  <h3><a href="{reunion.url}">{reunion.title}</a></h3>
+  <div class="speakers">&nbsp;par
+    {#for id in reunion.data.speakers}
+    {#let speaker = cdi:speakers.get(id)}
+    <strong>{#if speaker.profile}<a href="{speaker.profile}"
+                                    target="_blank">{speaker.name}</a>{#else}{speaker.name}{/if}
+    </strong>{#if !id_isLast} et {/if}
+    {/for}
+  </div>
+</article>

@@ -1,0 +1,13 @@
+- id: forax
+  name: Rémi Forax
+  profile: https://monge.univ-mlv.fr/~forax/
+  bio: |
+    Rémi est enseignant à l'Université Gustave Eiffel. Il contribue à la spéc (et une partie de l'implémentation) d'invokedynamic, du package java/lang/invoke ainsi que la nouvelle concaténation de strings, lambdas et modules Java.
+    Il travaille actuellement sur les projets Amber (record, sealed types, pattern matching) et Valhalla (value types and specialized generics).
+- id: josepaumard
+  name: José Paumard
+  profile: https://x.com/JosePaumard
+  bio: |
+    José est Java Developer Advocate chez Oracle très actif dans la communauté: Il publie les séries vidéo "Java Coding Tips" et "JEP Café", sur Java YouTube Channel.
+    Il contribue au contenu du site dev.java. Il est également membre actif du Paris JUG, et désorganise le JChateau Unconference.
+    Précédemment il a enseigné 25 ans à Sorbonne Paris Nord!

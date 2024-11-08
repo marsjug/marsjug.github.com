@@ -1,0 +1,24 @@
+---
+title: Soirées
+id: reunions
+description: Le Mars JUG réunit régulièrement la communauté Java de Marseille et de sa région autour d'intervenants qui viennent nous parler de la plateforme Java et de son écosystème.
+layout: main
+---
+
+<div class="row">
+  <div class="span12">
+    {#include partials/upcoming/}
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="span12">
+    <h2 class="reunions-section-title">Pr&eacute;c&eacute;dentes soirées</h2>
+    <div class="reunions">
+      {#for reunion in site.collections.reunions.past}
+      {#reunion-card reunion=reunion/}
+      {/for}
+    </div>
+  </div>
+</div>
