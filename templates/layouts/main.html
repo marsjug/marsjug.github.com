@@ -5,11 +5,12 @@ layout: default
 <div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
-      <ul id="tabs" class="nav" style="background-image: url('{site.image('marsjug.png')}')">
-        <li><a href="{site.url()}">Home</a></li>
-        <li><a href="{site.url("reunions")}">Soirées</a></li>
-        <li><a href="{site.url("archives")}">Archives</a></li>
-        <li><a href="{site.url("partenaires")}">Partenaires</a></li>
+      <a href="{site.url()}" class="logo" style="background-image: url('{site.image('marsjug.png')}')"></a>
+      <ul id="tabs" class="nav" >
+        <li {#if page.data.id == 'home'}class="active"{/}><a href="{site.url()}">Home</a></li>
+        <li {#if page.data.id == 'reunions'}class="active"{/}><a href="{site.url("reunions")}">Soirées</a></li>
+        <li {#if page.data.id == 'archives'}class="active"{/}><a href="{site.url("archives")}">Archives</a></li>
+        <li {#if page.data.id == 'partenaires'}class="active"{/}><a href="{site.url("partenaires")}">Partenaires</a></li>
       </ul>
     </div>
   </div>

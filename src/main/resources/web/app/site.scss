@@ -6,10 +6,14 @@ body {
  --site-color-1: rgb(102, 167, 183);
 }
 
-#tabs {
-  padding-left: 48px;
+.logo {
+  float: left;
   background-repeat: no-repeat;
-  background-position: 0px 3px
+  background-position: 0px 3px;
+  display: block;
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
 }
 
 .center {
