@@ -19,12 +19,23 @@ id: reunion
     <h3>Résumé</h3>
     {#insert /}
     <h3>Speakers</h3>
-    <div class="speakers">&nbsp;par
+    <div class="speakers">
       {#for id in page.data.speakers}
-      {#let speaker = cdi:speakers.get(id)}
-      <strong>{#if speaker.profile}<a href="{speaker.profile}"
-                                      target="_blank">{speaker.name}</a>{#else}{speaker.name}{/if}
-      </strong>{#if !id_isLast} et {/if}
+        {#let speaker = cdi:speakers.get(id)}
+      <div class="speaker">
+        <div class="speaker-name">
+      <strong>
+          {#if speaker.profile}
+            <a href="{speaker.profile}" target="_blank">{speaker.name}</a>
+          {#else}
+            {speaker.name}
+          {/if}
+        </strong>
+        </div>
+        <div class="speaker-bio">
+          {speaker.bio}
+        </div>
+      </div>
       {/for}
     </div>
     <h3>Déroulement de la soirée</h3>
@@ -33,7 +44,11 @@ id: reunion
     <a href="{page.data.inscription}" target="_blank" class="btn btn-inscription"><i class="fa-solid fa-user-secret"></i> S'inscrire</a>
   </div>
 </div>
-
+<style>
+  .speakers{
+    display: flex;
+  }
+</style>
 
 
 
