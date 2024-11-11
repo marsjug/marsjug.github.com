@@ -2,6 +2,27 @@
 layout: main
 id: reunion
 ---
+<script>
+  function setInscriptionButtonText(text) {
+    for(const elt of document.getElementsByClassName("btn-inscription-text")){
+      elt.textContent=text;
+    }
+  }
+
+  function manageDate() {
+    let meetingDate = '{page.date}'.substring(0,10);
+    const now = new Date().toISOString().substring(0,10);
+
+    if(meetingDate < now ){
+      setInscriptionButtonText("meetup");
+    } else {
+      setInscriptionButtonText("S'inscrire");
+    }
+  }
+  document.addEventListener("DOMContentLoaded", function() {
+    manageDate();
+  });
+</script>
 
 
 <div class="hero-unit">
@@ -11,7 +32,7 @@ id: reunion
     </div>
     <div class="date"><i class="fa fa-calendar"></i> {page.date.format(global:FULL_DATE_FORMAT)} à {page.date.format(global:TIME_FORMAT)}</div>
     <h2>{page.title}</h2>
-    <a href="{page.data.inscription}" target="_blank" class="btn btn-inscription"><i class="fa-solid fa-user-secret"></i> S'inscrire</a>
+    <a href="{page.data.inscription}" target="_blank" class="btn btn-inscription"><i class="fa-solid fa-user-secret"></i>&nbsp;<span class="btn-inscription-text"></span></a>
   </div>
 </div>
 <div class="row">
@@ -30,7 +51,7 @@ id: reunion
     <h3>Déroulement de la soirée</h3>
     <p>La soirée se déroulera le <span class="label label-info">{page.date.format(FULL_DATE_FORMAT)}</span> à partir de {page.date.format(TIME_FORMAT)}</p>
     {cdi:locations.get(page.data.location).info.markdownify.raw}
-    <a href="{page.data.inscription}" target="_blank" class="btn btn-inscription"><i class="fa-solid fa-user-secret"></i> S'inscrire</a>
+    <a href="{page.data.inscription}" target="_blank" class="btn btn-inscription"><i class="fa-solid fa-user-secret"></i>&nbsp;<span class="btn-inscription-text"></span></a>
   </div>
 </div>
 
