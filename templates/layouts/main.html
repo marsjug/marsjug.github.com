@@ -12,6 +12,7 @@ layout: default
         <li {#if page.data.id == 'archives'}class="active"{/}><a href="{site.url("archives")}">Archives</a></li>
         <li {#if page.data.id == 'partenaires'}class="active"{/}><a href="{site.url("partenaires")}">Partenaires</a></li>
       </ul>
+        <div class="powered"><i>@Powered by <a href="https://docs.quarkiverse.io/quarkus-roq/dev/index.html" target="_blank" rel="noopener noreferrer">Quarkus Roq</a></i></div>
     </div>
   </div>
 </div>
@@ -23,4 +24,11 @@ layout: default
     </div>
   </section>
 </main>
+<style>
+    .powered{
+        position: absolute; top: 0px; right: 0px;
+        margin-top: 3px;
+        margin-right: 10px;
+    }
+</style>
 
