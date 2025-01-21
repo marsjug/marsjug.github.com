@@ -1,21 +1,3 @@
-- id: cdtaste
-  name: Clément de Tastes
-  profile: https://www.sciam.fr/equipe/clement-de-tastes
-  bio: | 
-    Tombé dans les joies de la programmation dès sa première calculatrice
-    programmable, Clément a travaillé sur divers projets liés au Naval de
-    Défense et plus particulièrement dans la conception des Systèmes de Combat,
-    ce qui l’a parfois emmené aussi loin qu’en Argentine ou en Malaisie.
-    Adepte du clean code et soucieux des enjeux tels que la maintenabilité, la
-    performance et l’évolutivité technologique, il a pu mettre en pratique ces
-    principes en occupant successivement des postes de développeur fullstack,
-    tech lead et architecte.
-    Curieux et autodidacte: il aime explorer de nouveaux domaines et s’y
-    perfectionner, comme le brassage amateur, l’impression 3D, la cuisine ou le
-    piano. Le tout entrecoupé d’une bonne dose de sport (football, randonnée) et
-    de quêtes épiques de jeu de rôle partagées entre amis.
-
-
 - id: forax
   name: Rémi Forax
   profile: https://monge.univ-mlv.fr/~forax/
@@ -79,7 +61,7 @@
     J'interviens dans les phases de conception, de construction et d'optimisation d'infrastructures et d'architectures Cloud et d'usines logicielles. 
     Je vous aide à optimiser les coûts et à sécuriser vos infrastructures.
     Mes sujets de prédilection : le Cloud, le DevOps, le FinOps, la sécurité, la conteneurisation, le serverless et l'infrastructure as code.
-- id: cdetastes
+- id: cdtastes
   name: Clément de Tastes
   profile: https://x.com/cdetastes
   bio: |
