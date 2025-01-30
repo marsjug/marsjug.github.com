@@ -1,23 +1,30 @@
-- name: Treeptik
-  url: "https://www.treeptik.fr"
-  image: "treeptik.png"
+- name: Devoxx France
+  url: "http://www.devoxx.fr"
+  image: "devoxx.png"
 
-- name: SmartTrade
-  url: "https://www.smart-trade.net"
-  image: "smarttrade.png"
+- name: Tricentis
+  url: "https://tricentis.wd1.myworkdayjobs.com/Tricentis_Careers?locations=0cb2ae6f158901dc29c91826a601ae02"
+  image: "tricentis.png"
+# - name: Treeptik
+#   url: "https://www.treeptik.fr"
+#   image: "treeptik.png"
 
-- name: Viaxoft
-  url: "https://www.viaxoft.com"
-  image: "viaxoft.jpg"
+# - name: SmartTrade
+#   url: "https://www.smart-trade.net"
+#   image: "smarttrade.png"
 
-- name: Sopra Steria
-  url: "https://www.soprasteria.com/fr"
-  image: "SopraSteria-logo.svg"
+# - name: Viaxoft
+#   url: "https://www.viaxoft.com"
+#   image: "viaxoft.jpg"
 
-- name: Supinfo
-  url: "https://www.supinfo.com"
-  image: "supinfo.png"
+# - name: Sopra Steria
+#   url: "https://www.soprasteria.com/fr"
+#   image: "SopraSteria-logo.svg"
 
-- name: Jetbrains
-  url: "https://www.jetbrains.com/idea/"
-  image: "intellij.gif"
+# - name: Supinfo
+#   url: "https://www.supinfo.com"
+#   image: "supinfo.png"
+
+# - name: Jetbrains
+#   url: "https://www.jetbrains.com/idea/"
+#   image: "intellij.gif"
