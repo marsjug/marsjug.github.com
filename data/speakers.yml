@@ -66,3 +66,12 @@
   profile: https://x.com/cdetastes
   bio: |
     Passionné par le développement logiciel depuis l'obtention de ma première calculatrice programmable, j'ai pu me forger une solide expérience de tech lead et d'architecte dans la conception de systèmes de combats embarqués. Adepte du clean code, de “developer joy” et d'architectures bien pensées, j'aime intervenir aussi bien sur les sujets de conception que de dev front ou back.
+- id: scraly
+  name: Aurélie Vache
+  profile: https://x.com/aurelievache
+  bio: | 
+    Aurélie est Developer Advocate chez OVHcloud. Elle est Docker Captain, CNCF Ambassador, Google Cloud developer Expert, GitPod Hero & Women Techmakers Ambassador. Dans le milieu du Dev et de l'Ops depuis + de 18 ans, elle est une passionnée de Cloud et prône les bonnes pratiques DevOps/Cloud/Golang.
+    Organisatrice de conférences depuis 2016, elle est également rédactrice technique, sketchnoter, auteure de livres illustrés et speaker.
+    Elle adore faire du mentoring et aider les autres.
+    Elle a créé une nouvelle façon visuelle pour les gens d'apprendre et de comprendre les technologies Cloud : "Understanding Kubernetes/Istio/Docker in a visual way" dans des sketchnotes, livres et des vidéos illustrés.
+
