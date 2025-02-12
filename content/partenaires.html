@@ -8,6 +8,6 @@ layout: main
 {#for partenaire in cdi:partenaires.list}
   <div class="span4">
     <h3>{partenaire.name}</h3>
-    <p><a href="{partenaire.url}" target="_blank"><img src="{site.image('partenaires').resolve(partenaire.image)}"/></a></p>
+    <p><a href="{partenaire.url}" target="_blank"><img src="{site.image(str:fmt("partenaires/%s", partenaire.image))}"/></a></p>
   </div>
 {/}

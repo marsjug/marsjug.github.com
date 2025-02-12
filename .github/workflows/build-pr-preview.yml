@@ -1,0 +1,27 @@
+name: Build PR Preview
+
+on:
+  pull_request:
+
+jobs:
+  build-preview:
+    name: Build Preview
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate blog
+        uses: quarkiverse/quarkus-roq@v1
+        with:
+          github-pages: 'false'
+
+      - name: Store PR id
+        run: |
+          echo ${{ github.event.number }} > ./target/roq/pr-id.txt
+
+      - name: Uploading artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: blog
+          path: ./target/roq
+          retention-days: 3
