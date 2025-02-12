@@ -6,7 +6,7 @@ speakers:
 inscription: https://www.meetup.com/marseille-java-user-group-meetup/events/306140214
 location: tricentis
 date: 2025-03-05 19:00:00 +0100
-image: "/static/assets/images/understandingk8s.jpg"
+image: "understandingk8s.jpg"
 ---
 Kubernetes est devenu le standard de facto pour déployer et exploiter des applications conteneurisées. Mais comprendre Kubernetes peut s’avérer difficile ou prendre beaucoup de temps.
 

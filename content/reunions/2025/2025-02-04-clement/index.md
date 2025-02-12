@@ -6,7 +6,7 @@ speakers:
 inscription: https://www.meetup.com/marseille-java-user-group-meetup/events/305735018/
 location: tricentis
 date: 2025-02-04 19:00:00 +0100
-image: static/assets/images/marioTuyau.jpg
+image: marioTuyau.jpg
 ---
 Le développement logiciel est souvent un challenge, d'autant plus quand on a de
 fortes contraintes matérielles : peu de CPU, peu de RAM, peu voire pas de
