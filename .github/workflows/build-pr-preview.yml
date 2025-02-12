@@ -14,6 +14,7 @@ jobs:
         uses: quarkiverse/quarkus-roq@v1
         with:
           github-pages: 'false'
+          maven-build-args: ''
 
       - name: Store PR id
         run: |
@@ -25,3 +26,4 @@ jobs:
           name: blog
           path: ./target/roq
           retention-days: 3
+          
