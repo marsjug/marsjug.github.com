@@ -1,3 +1,12 @@
 tasks:
   - init: |
-                quarkus build
+              curl -s "https://get.sdkman.io/" | bash
+              source "$HOME/.sdkman/bin/sdkman-init.sh"
+              echo "sdkman_auto_answer=true" > ~/.sdkman/etc/config
+              sdk install java 21.0.5-tem
+              sdk install quarkus
+              sdk install jbang
+              jbang trust add https://github.com/quarkiverse/quarkus-roq/blob/HEAD/roq.java
+              jbang app install --fresh --force roq@quarkiverse/quarkus-roq
+    command: |
+              quarkus build
