@@ -74,4 +74,11 @@
     Organisatrice de conférences depuis 2016, elle est également rédactrice technique, sketchnoter, auteure de livres illustrés et speaker.
     Elle adore faire du mentoring et aider les autres.
     Elle a créé une nouvelle façon visuelle pour les gens d'apprendre et de comprendre les technologies Cloud : "Understanding Kubernetes/Istio/Docker in a visual way" dans des sketchnotes, livres et des vidéos illustrés.
-
+- id: gphilippart
+  name: Gilles Philippart
+  profile: https://x.com/gphilippart
+  bio: | 
+    Gilles travaille chez Confluent en tant que Software Practice Lead et possède plus de vingt ans d'expérience dans le secteur financier, principalement dans le développement de systèmes pour les banques d'investissement.
+    Récemment, il a occupé le poste de Principal Engineer dans une entreprise FinTech, où il a construit une plateforme offrant des prêts instantanés aux petites et moyennes entreprises. 
+    À travers ce travail, il est devenu un fervent défenseur des architectures event-driven avec Apache Kafka et prend à coeur le fait de guider les autres à tirer parti de ses avantages. 
+    En dehors du travail, Gilles aime lire des livres, concocter des délices culinaires et passer du temps à jouer avec sa fille et sa femme.
