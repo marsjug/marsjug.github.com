@@ -37,19 +37,16 @@ id: reunion
 </div>
 <div class="row">
   <div class="span12">
-  <h3>Résumé</h3>
-    <table>
-      <tr>
-       {#if page.image??}
-         <td style="height:225px; width:300px; padding-right:20px">
-         <img height="225" width="300" src="{page.data.image}" />
-         </td>
-        {/if}
-        <td>
-          {#insert /}
-          </td>
-      </tr>
-    </table>
+    <h3>Résumé</h3>
+
+    {#if page.image??}
+      <div style="float:left;  padding-right:30px; padding-bottom:30px;">
+        <img width="400" src="{page.data.image}"/>
+      </div>
+    {/if}
+    <div>
+      {#insert /}
+    </div>
     <h3>Speakers</h3>
     <div class="speakers">
       {#for id in page.data.speakers}

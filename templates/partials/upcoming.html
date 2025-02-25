@@ -3,7 +3,7 @@
 
 <div class="reunions">
   {#if !future.isEmpty}
-  {#for reunion in future}
+  {#for reunion in future.reversed}
     {#reunion-card reunion /}
   {/for}
   {#else}
