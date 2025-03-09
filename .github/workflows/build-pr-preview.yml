@@ -1,4 +1,7 @@
 name: Build PR Preview
+env:
+  TZ: Europe/Paris
+
 
 on:
   pull_request:
