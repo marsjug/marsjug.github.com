@@ -1,6 +1,7 @@
 ## Deploy to GH-Pages for your Quarkus Roq site.
 name: Roq Site Deploy
-
+env:
+  TZ: Europe/Paris
 on:
   push:
     branches: [ master ]   # Switch to the branch which should be deployed to GitHub Pages
