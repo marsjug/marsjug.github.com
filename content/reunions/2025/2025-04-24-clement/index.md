@@ -5,7 +5,7 @@ speakers:
   - cdtastes
 inscription: https://www.meetup.com/marseille-java-user-group-meetup/events/307157408/
 location: tricentis
-date: 2025-04-24 19:00:00 +0100
+date: 2025-04-24 19:00:00 +0200
 ---
 
 Java 24 vient de sortir et intègre en standard l'API Stream Gatherers qui vient
