@@ -1,5 +1,5 @@
 ---
-title: "Roq : générateur super puissant de site static & Retrouvons l'équilibre"
+title: "Roq : générateur super puissant de site statique & Retrouvons l'équilibre"
 layout: reunion
 speakers:
   - andyd
