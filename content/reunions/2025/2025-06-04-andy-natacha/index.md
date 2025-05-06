@@ -9,7 +9,7 @@ location: tricentis
 date: 2025-06-04 19:00:00 +0200
 ---
 
-# Roq : créez votre site statique avec des super-pouvoirs, amusant, puissant et facile a maintenir !
+# Roq : créez votre site statique avec des super-pouvoirs, amusant, puissant et facile à maintenir !
 
 À la fin de cette session de live-coding, vous saurez comment démarrer votre prochain site statique—que ce soit un **blog**, un **portfolio**, un **CV**, un **site d’entreprise** ou même une **page de restaurant**—avec **Roq**.  
 
