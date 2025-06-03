@@ -8,7 +8,7 @@ speakers:
   - nmuller
 inscription: https://www.meetup.com/marseille-java-user-group-meetup/events/308254912
 location: tricentis
-date: 2025-06-24 19:00:00 +0200
+date: 2025-06-25 19:00:00 +0200
 ---
 
 # Le Graal : survivre aux Pythons sur l'île de Java​
