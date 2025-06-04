@@ -7,6 +7,7 @@ speakers:
   - jpivi
   - nmuller
 inscription: https://www.meetup.com/marseille-java-user-group-meetup/events/308254912
+barbecue: https://www.meetup.com/marseille-java-user-group-meetup/events/308255183
 location: tricentis
 date: 2025-06-25 19:00:00 +0200
 ---
@@ -19,4 +20,4 @@ Chez Olea Medical nous avons étudié et mis en place différents patterns d'int
 
 Dans ce REX nous présenterons différents benchmark, les avantages et inconvénients et feront quelques démos.
 
-Ce talk sera suivi, comme veut la coutume, du barbecue annuel!! [Inscrivez-vous](https://www.meetup.com/marseille-java-user-group-meetup/events/308255183)!
+Ce talk sera suivi, comme veut la coutume, du barbecue annuel!!![Mergez](merguez.png) [Inscrivez-vous](https://www.meetup.com/marseille-java-user-group-meetup/events/308255183)! ![BBQ](bbq.png).

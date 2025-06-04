@@ -33,6 +33,9 @@ id: reunion
     <div class="date"><i class="fa fa-calendar"></i> {page.date.format(global:FULL_DATE_FORMAT)} à {page.date.format(global:TIME_FORMAT)}</div>
     <h2>{page.title}</h2>
     <a href="{page.data.inscription}" target="_blank" class="btn btn-inscription"><i class="fa-solid fa-user-secret"></i>&nbsp;<span class="btn-inscription-text"></span></a>
+    {#if page.data.barbecue??}
+      <a href="{page.data.barbecue}" target="_blank" class="btn btn-inscription"><i class="fa-solid fa-cutlery"></i> <span>J'aurai faim</span></a>
+    {/if}
   </div>
 </div>
 <div class="row">
