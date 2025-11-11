@@ -1,3 +1,12 @@
+- id: aregnier
+  name: Alain Regnier
+  profile: https://www.linkedin.com/in/alainregnier/
+  bio: |
+    Alain Regnier est Architecte Technique et Expert Kubernetes.
+    Il accompagne les entreprises qui veulent passer à Kubernetes ou s'en servir plus efficacement en suivant les Bonnes Pratiques (stratégie, installation, formation, kubernetisation d'application, audit...).
+    Depuis le rachat de Kubo Labs par SCIAM, il est Directeur Technique du pôle Kubernetes et DevOps de SCIAM. 
+    Auparavant il était CTO de la société Kubo Labs, spécialiste de Kubernetes on premise et sur le Cloud.
+    Il est GDE Cloud (Google Developer Expert) et a passé 10 ans dans la Silicon Valley où il a notamment participé à la rédaction de plusieurs standards des Web Services et des Objets Connectés.
 - id: forax
   name: Rémi Forax
   profile: https://monge.univ-mlv.fr/~forax/
