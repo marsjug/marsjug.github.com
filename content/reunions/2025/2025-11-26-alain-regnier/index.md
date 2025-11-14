@@ -18,7 +18,7 @@ Deux sujets seront présentés par Alain:
 
 Plus de 10 ans après sa sortie en 2014, Kubernetes a beaucoup changé. Pourtant beaucoup d'entreprises continuent d'utiliser Kubernetes de la même manière depuis des années.  
 
-Au cours de cette présentation nous ferons le tour de choses à connaitre pour ne pas utiliser Kubernetes en 2025 comme si on était encore en 2015... (Gateway, kubectl debug, CRD et Operator, CSI et Volume Snapshots, partage de GPU, Image Volumes, eBPF, CEL pour le contrôle d'admission, request/limits au niveau des Pods, Kueue pour gérer les jobs, sécurité...)  
+Au cours de cette présentation, nous ferons le tour de choses à connaître pour ne pas utiliser Kubernetes en 2025 comme si on était encore en 2015... (Gateway, kubectl debug, CRD et Operator, CSI et Volume Snapshots, partage de GPU, Image Volumes, eBPF, CEL pour le contrôle d'admission, request/limits au niveau des Pods, Kueue pour gérer les jobs, sécurité, ...)  
   
 
 ## Récap KubeCon 2025 à Atlanta
