@@ -22,4 +22,4 @@ Au cours de cette présentation, nous ferons le tour de choses à connaître pou
   
 
 ## Récap KubeCon 2025 à Atlanta
-Cette partie sera focalisée sur la KubeCon 2025 à Atlanta dont Alain sera fraichement revenu et présentera la conférence, les grandes annonces et les nouveautés à venir de l'ecosystème Kubernetes.
+Cette partie sera focalisée sur la KubeCon 2025 à Atlanta dont Alain sera fraîchement revenu et présentera la conférence, les grandes annonces et les nouveautés à venir de l'écosystème Kubernetes.
