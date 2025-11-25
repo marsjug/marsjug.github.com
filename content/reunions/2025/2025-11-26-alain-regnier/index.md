@@ -5,7 +5,7 @@ speakers:
   - aregnier
 inscription: https://www.meetup.com/marseille-java-user-group-meetup/events/311957140/
 location: tricentis
-date: 2025-11-26 19:00:00 +0200
+date: 2025-11-26 19:00:00 +0100
 ---
 
 Pour cette soirée exceptionelle, le MarsJUG et le Cloud Native Aix Marseille reçoivent Alain Régnier ! 
