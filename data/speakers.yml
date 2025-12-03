@@ -147,3 +147,8 @@
 - id: jpivi
   name: Julien Pivi
   profile: https://x.com/JulienPivi
+- id: jviet
+  name: Julien viet
+  profile: https://x.com/julienviet
+  bio: |
+    Eclipse Vert.x project lead, I have been developing open source software since 2002
