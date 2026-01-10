@@ -161,3 +161,16 @@
   profile: https://x.com/julienviet
   bio: |
     Eclipse Vert.x project lead, I have been developing open source software since 2002
+- id: sphilippart
+  name: Stéphane Philippart
+  bio: |
+    Developer Advocate chez OVHcloud. Développeur Java depuis … trop longtemps 😅.
+    Baigne dans le cloud et l’Intelligence Artificielle.
+    Speaker à de nombreuses conférences.
+  profile: https://in.linkedin.com/in/philippartstephane
+- id: fklauk
+  name: Fanny Klauk
+  bio: |
+    Accompagnatrice agile & DevOps chez Apside, co-créatrice de TADx - Tours agile & DevOps eXperience, j'ai parcouru des kilomètres de lignes de développements, d'analyses fonctionnelles et d'architectures orientées données avant de revenir à mes premières amours : le travail d'équipe, dans un cadre motivant et bienveillant, autour de produits utiles et vivants.
+    C'est donc tout naturellement vers l'agilité et le DevOps que mes dernières missions se sont tournées. Depuis, je glane le meilleur pour alimenter les équipes que j'accompagne au quotidien : mindset DevOps et craftership, outils au service de la qualité et du déploiement, techniques de design thinking pour capter les vrais besoins et l'amélioration continue des produits et des équipes.
+  profile: https://www.linkedin.com/in/fanny-klauk/
