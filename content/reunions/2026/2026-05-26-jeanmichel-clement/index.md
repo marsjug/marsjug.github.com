@@ -8,7 +8,6 @@ inscription: https://www.meetup.com/marseille-java-user-group-meetup/events/3147
 location: tricentis
 date: 2026-05-26 19:00:00 +0200
 ---
-
 # 30 ans d'Hello World en Java du JDK 1.0 à 25 (Jean-Michel Doudoux)
 
 Traditionnellement, lorsque l’on débute avec un nouveau langage de programmation, on écrit un « Hello world » : une petite application d’une ou plusieurs lignes de code (avec Java) pour afficher deux mots.
