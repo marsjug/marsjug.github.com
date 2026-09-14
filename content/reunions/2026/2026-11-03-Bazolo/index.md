@@ -1,5 +1,5 @@
 ---
-title: Spring AI en action : intégrer les capacités des LLM dans vos applications Java
+title: "Spring AI en action : intégrer les capacités des LLM dans vos applications Java"
 layout: reunion
 speakers:
   - rbazolo
