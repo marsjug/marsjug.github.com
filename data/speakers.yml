@@ -196,3 +196,9 @@
   bio: |
     Sebastien est Developer Advocate chez Amazon Web Services.Il aide les développeurs à tirer le meilleur parti du cloud, avec une obsession constante : la performance, la simplicité et l'élégance technique.
     Ses sujets de prédilection ? Les architectures distribuées, les outils de développement, l'informatique mobile… et tout ce qui permet aux équipes de déployer plus rapidement, plus sûrement et à grande échelle.
+- id: separdaud
+  profile: https://www.linkedin.com/in/stephaneepardaud/
+  name: Stéphane Épardaud
+  bio: | 
+    Senior Principal Engineer chez Red Hat, Stéphane est sinon : musicien compositeur, co-organisateur de la célèbre Riviera Dev et du Riviera Java User Group, écrivain raté, et geek!
+    Ses principaux sujets dev du moment sont Vert.x, QUarkus et Java bien évidemment.
