@@ -4,7 +4,11 @@
 <div class="reunions">
   {#if !future.isEmpty}
   {#for reunion in future.reversed}
-    {#reunion-card reunion /}
+    {#if reunion_isFirst}
+      {#reunion-card reunion cssClass="next" /}
+    {#else}
+      {#reunion-card reunion cssClass="later" /}
+    {/if}
   {/for}
   {#else}
   {#empty /}

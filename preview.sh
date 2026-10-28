@@ -15,4 +15,5 @@
 quarkus build
 
 #serve the website hosted in target/roq/ at http://localhost:8x8x
-roq
+# -Ddebug=false skips the debug port 5005 probe, which hangs under WSL2 mirrored networking
+./mvnw quarkus:dev -Ddebug=false
