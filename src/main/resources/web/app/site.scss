@@ -91,6 +91,21 @@ article.reunion-card {
     margin-right: 10px;
   }
 
+  // the meetings after the next one recede with a smaller font
+  &.later {
+    padding: 10px 0;
+
+    h3 {
+      font-size: 1.1rem;
+      line-height: 1.4;
+      margin: 4px 0;
+    }
+
+    .speakers {
+      font-size: 0.9em;
+    }
+  }
+
 }
 
 .empty {
