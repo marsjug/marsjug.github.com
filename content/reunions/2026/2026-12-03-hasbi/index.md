@@ -3,7 +3,7 @@ title: "Combien pèse vraiment un objet Java ? Layout mémoire et Compact Object
 layout: reunion
 speakers:
   - ahasbi
-inscription: ""
+inscription: "https://www.meetup.com/marseille-java-user-group-meetup/events/317311006"
 location: tricentis
 date: 2026-12-03 19:00:00 +0100
 ---
